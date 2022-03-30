@@ -1,0 +1,134 @@
+/* global */
+body{
+    padding-top: 200px;
+    max-width: 1500px;
+    background: #1c1938;
+    border: none;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+
+#showcase h1, #showcase p, #showcase-footer{
+     max-width: 90%; 
+     
+}
+
+#insight{
+    color:#9765c3;
+}
+
+/* the box for both showcase and image */
+#section-container{
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+   
+
+
+}
+
+/* the box for showcase part */
+#showcase{
+    max-width: 50%;
+    background:#25214e;
+    padding: 15px 0 15px 0;
+    box-sizing: border-box;
+   
+}
+
+/* the header part of showcase */
+#showcase-header h1, #showcase-header p{
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+/* the footer part of showcase */
+#showcase-footer{
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;;
+   
+}
+
+/* for showcase footer boxes */
+#showcase-footer-box1, #showcase-footer-box2, #showcase-footer-box3  {
+      line-height: 3mm;
+      padding-top: 3px;
+}
+
+
+#showcase-footer p{
+    text-transform: uppercase;
+}
+
+
+/* image */
+
+#img-container{
+    width: 50%;
+    height: auto;
+    position: relative;
+    background-color: rgba(190, 30, 211, 0.432);  
+    
+}
+
+#image-el{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    z-index: -1;  
+    
+}
+
+
+/* media query */
+@media (max-width:800px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    #section-container{
+       flex-direction: column;
+       max-width: 100%;
+       margin: 50px 0 50px 0;
+       
+       
+    }
+
+    #showcase{
+        text-align: center;
+        max-width: 90%;
+        margin: 0 auto; 
+        -webkit-box-ordinal-group: 2;
+         order: 2;
+    }
+
+    #showcase-footer{
+        flex-direction: column;
+    }
+
+    
+    #img-container{
+        width: 90%; 
+        height: 300px; 
+        margin: 0 auto;
+        -webkit-box-ordinal-group: 1;
+        order: 1;
+        
+    }
+ 
+}
+
+
+
+
+
+
