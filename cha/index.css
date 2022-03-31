@@ -59,13 +59,14 @@ body{
 
 /* for showcase footer boxes */
 #showcase-footer-box1, #showcase-footer-box2, #showcase-footer-box3  {
-      line-height: 3mm;
+      line-height: 1mm;
       padding-top: 3px;
 }
 
 
 #showcase-footer p{
     text-transform: uppercase;
+    
 }
 
 
@@ -108,13 +109,20 @@ body{
         text-align: center;
         max-width: 80%;
         margin: 0 auto; 
+        padding-bottom: 30px;
         -webkit-box-ordinal-group: 2;
          order: 2;
     }
 
     #showcase-footer{
         flex-direction: column;
+        
     }
+
+    #showcase-footer h3{
+       margin-right: 18px;
+        
+    } 
 
     
     #img-container{
