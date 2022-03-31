@@ -90,7 +90,7 @@ body{
 
 
 /* media query */
-@media (max-width: 920px)and (orientation:landscape){
+@media (max-width: 920px){
     body{
         margin: 0;
         padding: 0;
